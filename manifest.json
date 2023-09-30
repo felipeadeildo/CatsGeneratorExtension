@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Gerador de Gatos",
+    "version": "1.0",
+    "description": "Gere imagens de gatos bonitinhos com um clique",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "imgs/icon16.png",
+            "48": "imgs/icon48.png",
+            "128": "imgs/icon128.png"
+        }
+    },
+    "icons": {
+        "16": "imgs/icon16.png",
+        "48": "imgs/icon48.png",
+        "128": "imgs/icon128.png"
+    },
+    "commands": {
+        "ain_que_delicia_o_veraaaaum": {
+            "suggested_key": {
+                "default": "Ctrl+Shift+G",
+                "mac": "Command+Shift+G"
+            },
+            "description": "Gerar Gato"
+        }
+    }
+}
